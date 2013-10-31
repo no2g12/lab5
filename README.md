@@ -1,7 +1,7 @@
 COMP2203 Lab 5
 ==========
 
-Lab sheet - 
+Lab sheet - http://comp2203.ecs.soton.ac.uk/labs/lab5/COMP2203%20Lab%205.pdf
 
 This build is a "completed" version of Lab 4, with:
 - the car data array removed
