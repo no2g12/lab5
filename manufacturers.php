@@ -1,6 +1,5 @@
 <?php require('includes/header.php'); ?>
 
-
 <!-- main content -->
 <div id="content" class="row">
 	
@@ -9,6 +8,11 @@
 	<!-- manufacturer list -->
 	<div id="manufacturer-list" class="row">
 		
+		<?php require('includes/db.php'); ?>
+		
+		<?php 
+      $manufacturer = $db->query("SELECT * manufacturer");
+		?>
 		<!-- ==================================== -->
 		<!-- PART 1 MANUFACTURER LIST PLACEHOLDER -->
 		<!-- ==================================== -->
